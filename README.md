@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Kyle-Atienza/Tip-Calculator)
-- Live Site URL: [Add live site URL here](https://kyle-atienza.github.io/Tip-Calculator/)
+- Solution URL: [GitHub Repo](https://github.com/Kyle-Atienza/Tip-Calculator)
+- Live Site URL: [GitHub Pages](https://kyle-atienza.github.io/Tip-Calculator/)
 
 ## My process
 
