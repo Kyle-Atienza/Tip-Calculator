@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+// color
+$primary: #26C0AB;
+$light-primary: #9FE8DD;
+
+$secondary: #00494D;
+
+$dark-grey: #5E7A7D;
+$light-grey: #7F9C9F;
+
+$light: #C5E4E7;
+$light-light: #F4FAFA;
+
+$white: #FFFFFF;
+
+$warning: #d35f56;
+
+
+//typography
+.total{
+    font-weight: 700;
+    font-size: 3rem;
+    font-size: 2rem;
+}
+p{
+    line-height: 1em;
+    font-size: .8rem;
+}
+
+button{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+label, h3{
+    font-weight: 400;
+    font-size: 1rem;
+    font-size: .9rem;
+}
+input::placeholder, input{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+// global
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+
+}
+button{
+    padding: .2em 0;
+    border: none;
+    border-radius: 6px;
+
+}
+input{
+    border-radius: 4px;
+    padding: .2em .5em;
+
+    
+}
+.invalid{
+    outline: 2px $warning solid;
+}
+input:invalid{
+    border: 2px red solid;
+}
